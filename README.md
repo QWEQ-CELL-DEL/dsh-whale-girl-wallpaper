@@ -79,4 +79,4 @@ screenshots.json       # 市场预览图清单（仓库内相对路径）
 
 - 本皮肤是社区项目，与 DeepSeek 官方没有隶属或背书关系。
 - 被皮肤市场收录不等于通过安全审核；收录不代表官方或市场对该皮肤的背书。
-- 发布到 GitHub 前，请把 `package.json` 中的 `REPLACE_WITH_GITHUB_OWNER` 替换为你的 GitHub 用户名。
+- 仓库地址：https://github.com/QWEQ-CELL-DEL/dsh-whale-girl-wallpaper。
