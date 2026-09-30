@@ -1,0 +1,49 @@
+{
+  "name": "dsh-whale-girl-wallpaper",
+  "version": "0.1.0",
+  "description": "把「DeepSeek 鲸鱼娘」动态壁纸视频设为 DSH Web 全屏背景的社区皮肤：视频循环播放 + 面板可读性遮罩。",
+  "license": "MIT",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "assets",
+    "cordis.patch.yml",
+    "screenshots.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-skin",
+    "deepseek-harness",
+    "wallpaper",
+    "theme"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/REPLACE_WITH_GITHUB_OWNER/dsh-whale-girl-wallpaper.git"
+  },
+  "homepage": "https://github.com/REPLACE_WITH_GITHUB_OWNER/dsh-whale-girl-wallpaper#readme",
+  "bugs": {
+    "url": "https://github.com/REPLACE_WITH_GITHUB_OWNER/dsh-whale-girl-wallpaper/issues"
+  }
+}

@@ -1,0 +1,9 @@
+# dsh-whale-girl-wallpaper — DSH profile bundle patch.
+# 安装后该 patch 把壁纸插件行插入 web profile 的 loader roster；
+# row 以包名引用本包：host 半侧经 exports["."] 运行，浏览器半侧经 exports["./client"]。
+- insert:
+    - id: whale-girl-wallpaper
+      name: dsh-whale-girl-wallpaper
+      config:
+        route: /dsh-whale-girl-wallpaper
+        scrim: 0.38
